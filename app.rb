@@ -6,8 +6,6 @@ require "./Models"
 set :database, {adapter: "sqlite3", database: "app_database.sqlite3"} 
 
 get "/" do 
-	@user = User.find(1)
+	"Hi!"
 end
 
-get "/home" do
-end
